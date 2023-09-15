@@ -13,30 +13,32 @@ const links = [
 
 export const Navbar = () => {
   return (
-    <header className="flex justify-between items-center max-w-5xl mx-auto py-3 px-3">
-      <h1 className="text-2xl">Caliber Fitness</h1>
-      {/* <div className="sm:flex gap-4 items-center hidden"> */}
-      <div className="gap-4 items-center hidden md:flex">
-        <nav>
-          <ul className="flex space-x-4">
-            {links.map(({ href, label }) => (
-              <li>
-                <Link href={href}>{label}</Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-        <ThemeToggle />
-      </div>
+    <div className="bg-base-300">
+      <header className="flex justify-between  items-center max-w-5xl mx-auto py-3 px-3">
+        <h1 className="text-2xl">Caliber Fitness</h1>
+        {/* <div className="sm:flex gap-4 items-center hidden"> */}
+        <div className="gap-4 items-center hidden md:flex">
+          <nav>
+            <ul className="flex space-x-4">
+              {links.map(({ href, label }) => (
+                <li>
+                  <Link href={href}>{label}</Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+          {/* <ThemeToggle /> */}
+        </div>
 
-      <div className="flex md:hidden items-center gap-2 h-full">
-        <div>
+        <div className="flex md:hidden items-center gap-2 h-full">
+          {/* <div>
           <ThemeToggle />
+        </div> */}
+          <div>
+            <Hamburger links={links} />
+          </div>
         </div>
-        <div>
-          <Hamburger links={links} />
-        </div>
-      </div>
-    </header>
+      </header>
+    </div>
   );
 };

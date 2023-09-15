@@ -39,7 +39,7 @@ export const Hamburger = ({ links }) => {
       {open && (
         <ul
           tabIndex={0}
-          className="dropdown-content absolute z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 right-0 top-12"
+          className="dropdown-content absolute bg-base-300 z-[1] menu p-2 shadow  rounded-box w-52 right-0 top-14"
         >
           {links.map(({ href, label }) => (
             <li
