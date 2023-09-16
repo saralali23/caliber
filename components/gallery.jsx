@@ -3,29 +3,29 @@ import React from "react";
 
 export const Gallery = () => {
   return (
-    <section>
-      <div className="mt-6">
+    <section className="mt-16">
+      <div className="pt-3">
         <h3 className="text-4xl font-bold text-center">Gallery</h3>
       </div>
-      <div className="mx-auto py-5">
-        <div className="flex flex-wrap">
-          <div className="flex w-1/2 flex-wrap">
-            <div className="w-1/2 p-1 md:p-2">
+      <div className="mx-auto mt-5">
+        <div className="flex md:flex-wrap flex-col md:flex-row  gap-3 md:gap-0">
+          <div className="flex flex-col md:flex-row w-full md:w-1/2 md:flex-wrap gap-3 md:gap-0">
+            <div className="w-full md:w-1/2 p-1 md:p-2">
               <Image
                 width={500}
                 height={500}
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
+                src="/gallery/01.webp"
               />
             </div>
-            <div className="w-1/2 p-1 md:p-2">
+            <div className="w-full md:w-1/2 p-1 md:p-2">
               <Image
                 width={500}
                 height={500}
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
+                src="/gallery/04.webp"
               />
             </div>
             <div className="w-full p-1 md:p-2">
@@ -34,36 +34,36 @@ export const Gallery = () => {
                 height={500}
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                src="/gallery/05.webp"
               />
             </div>
           </div>
-          <div className="flex w-1/2 flex-wrap">
+          <div className="flex md:w-1/2 flex-col md:flex-row md:flex-wrap  gap-3 md:gap-0">
             <div className="w-full p-1 md:p-2">
               <Image
                 width={500}
                 height={500}
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
+                src="/gallery/10.webp"
               />
             </div>
-            <div className="w-1/2 p-1 md:p-2">
+            <div className="w-full md:w-1/2 p-1 md:p-2">
               <Image
                 width={500}
                 height={500}
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
+                src="/gallery/15.webp"
               />
             </div>
-            <div className="w-1/2 p-1 md:p-2">
+            <div className="w-full md:w-1/2 p-1 md:p-2">
               <Image
                 width={500}
                 height={500}
                 alt="gallery"
                 className="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"
+                src="/gallery/07.webp"
               />
             </div>
           </div>

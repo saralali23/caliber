@@ -11,7 +11,11 @@ export default function page() {
         <Home />
         <div className="max-w-6xl mx-auto w-[90%]">
           <Services />
-          <Gallery />
+        </div>
+        <div className="bg-base-200">
+          <div className="max-w-6xl mx-auto w-[90%]">
+            <Gallery />
+          </div>
         </div>
       </main>
     </>

@@ -1,12 +1,10 @@
 "use client";
-
 import { useAnimation, motion } from "framer-motion";
-import Image from "next/image";
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 
 const boxVariant = {
-  visible: { opacity: 1, y: 0, transition: { duration: 1, delay: 0.2 } },
+  visible: { opacity: 1, y: 0, transition: { duration: 1 } },
   hidden: { opacity: 0, y: 75 },
 };
 

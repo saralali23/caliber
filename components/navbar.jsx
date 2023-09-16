@@ -16,7 +16,6 @@ export const Navbar = () => {
     <div className="bg-base-300">
       <header className="flex justify-between  items-center max-w-5xl mx-auto py-3 px-3">
         <h1 className="text-2xl">Caliber Fitness</h1>
-        {/* <div className="sm:flex gap-4 items-center hidden"> */}
         <div className="gap-4 items-center hidden md:flex">
           <nav>
             <ul className="flex space-x-4">
