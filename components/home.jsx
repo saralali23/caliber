@@ -3,7 +3,7 @@ import React from "react";
 
 export const Home = () => {
   return (
-    <div className="w-full bg-no-repeat bg-[url('/home2.png')] bg-cover h-full">
+    <div className="w-full pt-14  bg-no-repeat bg-[url('/home2.png')] bg-cover h-full">
       <div className="max-w-6xl mx-auto flex md:flex-row flex-col items-center min-h-[80vh] md:gap-5 justify-center h-full text-white w-full px-3 py-4 gap-2">
         <div className=" w-full md:w-[50%]">
           <Image

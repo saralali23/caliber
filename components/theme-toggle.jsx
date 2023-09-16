@@ -4,7 +4,8 @@ export const ThemeToggle = () => {
   const toggleTheme = () => {
     const html = document.querySelector("html");
     const theme = html.getAttribute("data-theme");
-    html.setAttribute("data-theme", theme == "dark" ? "light" : "dark");
+    html.setAttribute("data-theme", theme != "mydark" ? "mydark" : "mytheme");
+    // html.setAttribute("data-theme", theme != "dark" ? "dark" : "mytheme");
   };
 
   return (

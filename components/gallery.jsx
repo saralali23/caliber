@@ -3,8 +3,8 @@ import React from "react";
 
 export const Gallery = () => {
   return (
-    <section className="mt-16">
-      <div className="pt-3">
+    <section className="mt-16 py-5">
+      <div>
         <h3 className="text-4xl font-bold text-center">Gallery</h3>
       </div>
       <div className="mx-auto mt-5">

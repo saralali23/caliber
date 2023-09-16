@@ -22,7 +22,7 @@ module.exports = {
     themes: [
       {
         mytheme: {
-          primary: "#e7ed40",
+          primary: "#f6c802",
 
           secondary: "#a252f2",
 
@@ -30,7 +30,8 @@ module.exports = {
 
           neutral: "#16161d",
 
-          "base-100": "#ffffff",
+          "base-100": "#f6c802",
+          // "base-100": "#ffffff",
 
           info: "#7dbaf7",
 
@@ -40,7 +41,28 @@ module.exports = {
 
           error: "#e6375d",
         },
+        mydark: {
+          primary: "#d8c443",
+
+          secondary: "#ba4409",
+
+          accent: "#e8c988",
+
+          neutral: "#ffffff",
+
+          "base-100": "#3d3d3d",
+
+          info: "#82b0ed",
+
+          success: "#34e59e",
+
+          warning: "#8f530a",
+
+          error: "#f8524f",
+        },
       },
+
+      "dark",
     ],
   },
 };
