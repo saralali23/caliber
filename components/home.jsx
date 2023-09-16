@@ -3,9 +3,9 @@ import React from "react";
 
 export const Home = () => {
   return (
-    <div className="w-full bg-no-repeat bg-[url('/home2.png')] h-full">
-      <div className="max-w-6xl mx-auto flex items-center min-h-[80vh] gap-5 justify-center h-full text-white w-full">
-        <div className="px-3 py-4 w-[50%]">
+    <div className="w-full bg-no-repeat bg-[url('/home2.png')] bg-cover h-full">
+      <div className="max-w-6xl mx-auto flex md:flex-row flex-col items-center min-h-[80vh] md:gap-5 justify-center h-full text-white w-full px-3 py-4 gap-2">
+        <div className=" w-full md:w-[50%]">
           <Image
             src="/logo-500.png"
             alt="Caliber Fitness"
@@ -14,7 +14,7 @@ export const Home = () => {
             className="rounded-md w-full"
           />
         </div>
-        <div className="w-[50%] text-lg">
+        <div className="w-full md:w-[50%] text-lg">
           <h1 className="text-4xl md:text-6xl mb-4 font-bold">
             Caliber Fitness
           </h1>
