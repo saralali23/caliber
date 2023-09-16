@@ -15,7 +15,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="mydark">
+    <html
+      lang="en"
+      data-theme="mydark"
+      className="scroll-smooth"
+      style={{ scrollBehavior: "smooth", scrollPaddingTop: "4rem" }}
+    >
       <body className={inter.className}>{children}</body>
     </html>
   );
