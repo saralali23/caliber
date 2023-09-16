@@ -1,3 +1,4 @@
+import { Reviews } from "@/components/Reviews";
 import { Gallery } from "@/components/gallery";
 import { Home } from "@/components/home";
 import { Navbar } from "@/components/navbar";
@@ -16,6 +17,9 @@ export default function page() {
           <div className="max-w-6xl mx-auto w-[90%]">
             <Gallery />
           </div>
+        </div>
+        <div className="max-w-6xl mx-auto w-[90%]">
+          <Reviews />
         </div>
       </main>
     </>
