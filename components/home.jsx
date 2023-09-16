@@ -6,12 +6,12 @@ export const Home = () => {
   return (
     <div
       id="home"
-      className="w-full pt-14  bg-no-repeat bg-[url('/home2.png')] bg-cover h-full"
+      className="w-full pt-14  bg-no-repeat bg-[url('/home2.webp')] bg-cover h-full"
     >
       <div className="max-w-6xl mx-auto flex lg:flex-row flex-col items-center min-h-[80vh] md:gap-5 justify-center h-full w-full px-3 py-4 gap-2">
         <div className=" w-full lg:w-[50%]">
           <Image
-            src="/logo-500.png"
+            src="/logo-500.webp"
             alt="Caliber Fitness"
             width={500}
             height={500}

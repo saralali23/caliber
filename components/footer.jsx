@@ -18,7 +18,7 @@ export const Footer = () => {
         <div className="flex items-center justify-center md:justify-start">
           <Link href="#home">
             <Image
-              src="/logo-nobg.png"
+              src="/logo-nobg.webp"
               alt="logo"
               className="bg-primary rounded-lg"
               width={200}
