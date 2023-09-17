@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { ContactDialog, ContactDialogButton } from "./contact-dialog";
 
 export const Home = () => {
   return (
@@ -32,7 +31,8 @@ export const Home = () => {
             </p>
             <p className="mt-3">
               Our fitness center is spread 4000 square feet, and has separate
-              floors for strengthening, cardiac and other fitness activities.
+              floors for strength and cardio training, and other fitness
+              activities.
             </p>
             <p className="mt-3">
               Our State-of-the-art equipment, expert trainers and a variety of
@@ -42,12 +42,13 @@ export const Home = () => {
             </p>
           </div>
           <div className="mt-4">
-            <ContactDialogButton />
+            <a
+              className="btn btn-primary ring-0 focus-visible:ring-0"
+              href="#contact"
+            >
+              Contact us
+            </a>
           </div>
-        </div>
-
-        <div>
-          <ContactDialog />
         </div>
       </div>
     </div>

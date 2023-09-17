@@ -30,25 +30,23 @@ export const Reviews = () => {
         <h3 className="text-4xl font-bold text-center">Customer feedback</h3>
       </div>
       <div className="carousel w-full gap-5 mt-10">
-        <div id="slide1" className="carousel-item relative w-full">
-          <Review {...reviews[0]} />
-        </div>
-        <div id="slide2" className="carousel-item relative w-full">
-          <Review {...reviews[1]} />
-        </div>
-        <div id="slide3" className="carousel-item relative w-full">
-          <Review {...reviews[2]} />
-        </div>
-        <div id="slide4" className="carousel-item relative w-full">
-          <Review {...reviews[3]} />
-        </div>
+        {reviews.map((review, index) => {
+          return (
+            <div
+              id={`slide${index + 1}`}
+              className="carousel-item relative w-full"
+            >
+              <Review {...review} />
+            </div>
+          );
+        })}
       </div>
       <div className="flex justify-end gap-3 mt-5">
         <a
           href={`#slide${slide}`}
           onClick={() => {
             console.log(slide);
-            setSlide(slide == 1 ? 4 : slide - 1);
+            setSlide(slide == 1 ? reviews.length : slide - 1);
           }}
           className="btn btn-circle btn-primary"
         >
@@ -58,7 +56,7 @@ export const Reviews = () => {
           href={`#slide${slide}`}
           onClick={() => {
             console.log(slide);
-            setSlide(slide == 4 ? 1 : slide + 1);
+            setSlide(slide == reviews.length ? 1 : slide + 1);
           }}
           className="btn btn-circle btn-primary"
         >
