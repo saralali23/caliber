@@ -15,7 +15,7 @@ export const Navbar = () => {
   return (
     <div className="fixed bg-nav w-full z-50 text-white">
       <header className="flex font-bold justify-between  items-center max-w-5xl mx-auto py-3 px-3">
-        <h1 className="text-2xl md:text-3xl">Caliber Fitness</h1>
+        <h1 className="text-2xl md:text-3xl">Caliber Fitness Center</h1>
         <div className="gap-4 items-center hidden md:flex">
           <nav>
             <ul className="flex space-x-4 text-lg font-semibold">

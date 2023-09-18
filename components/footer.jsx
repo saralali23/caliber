@@ -78,8 +78,8 @@ export const Footer = () => {
             </div>
             <div className="flex gap-2 items-center">
               <Mail />
-              <a href="mailto:caliberfitcenter@gmail.com">
-                caliberfitcenter@gmail.com
+              <a href="mailto:caliberfitcentre@gmail.com">
+                caliberfitcentre@gmail.com
               </a>
             </div>
             <div className="flex gap-2 items-center">
